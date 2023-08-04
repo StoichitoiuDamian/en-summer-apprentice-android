@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">EndavaPracticaAndroid</string>
+    <string name="type_ticket_description">Descriere a tipului de bilet</string>
+</resources>

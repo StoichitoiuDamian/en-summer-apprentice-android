@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <ImageView
+        android:id="@+id/imageOrder"
+        android:layout_width="150dp"
+        android:scaleType="centerCrop"
+        android:elevation="4dp"
+        android:layout_marginTop="5dp"
+        android:layout_height="110dp" />
+
+    <TextView
+        android:id="@+id/eventName"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_toEndOf="@id/imageOrder"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="0dp"
+        tools:text="eventName:" />
+
+    <TextView
+        android:id="@+id/orderedAt"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:layout_below="@id/eventName"
+        android:layout_toEndOf="@id/imageOrder"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="0dp"
+        tools:text="orderedAt:" />
+
+    <TextView
+        android:id="@+id/typeTicket"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:layout_below="@id/orderedAt"
+        android:layout_toEndOf="@id/imageOrder"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="0dp"
+        tools:text="typeTicket:" />
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:layout_below="@id/typeTicket"
+        android:layout_toEndOf="@id/imageOrder"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="0dp"
+        tools:text="price:" />
+
+    <TextView
+        android:id="@+id/numberOfTickets"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:layout_below="@id/price"
+        android:layout_toEndOf="@id/imageOrder"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="0dp"
+        tools:text="numberOfTickets:" />
+</RelativeLayout>
